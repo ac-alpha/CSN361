@@ -1,0 +1,70 @@
+\hypertarget{problem3_8c}{}\section{problem3.\+c File Reference}
+\label{problem3_8c}\index{problem3.\+c@{problem3.\+c}}
+
+
+Problem Statement 3 Ping a server. Use sudo $<$command$>$ $<$hostname$>$ $<$times$>$  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$arpa/inet.\+h$>$}\newline
+{\ttfamily \#include $<$sys/socket.\+h$>$}\newline
+{\ttfamily \#include $<$fcntl.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$netdb.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+Include dependency graph for problem3.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \hyperlink{problem3_8c_a8ffd78e8c1cc5d1c7b03c7b568620316}{domain\+\_\+name\+\_\+server\+\_\+lookup} (char $\ast$host\+\_\+addr)
+\begin{DoxyCompactList}\small\item\em Function to get the IP address from the domain name. \end{DoxyCompactList}\item 
+int \hyperlink{problem3_8c_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Problem Statement 3 entrypoint. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Problem Statement 3 Ping a server. Use sudo $<$command$>$ $<$hostname$>$ $<$times$>$ 
+
+\begin{DoxyAuthor}{Author}
+Ashutosh 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{problem3_8c_a8ffd78e8c1cc5d1c7b03c7b568620316}\label{problem3_8c_a8ffd78e8c1cc5d1c7b03c7b568620316}} 
+\index{problem3.\+c@{problem3.\+c}!domain\+\_\+name\+\_\+server\+\_\+lookup@{domain\+\_\+name\+\_\+server\+\_\+lookup}}
+\index{domain\+\_\+name\+\_\+server\+\_\+lookup@{domain\+\_\+name\+\_\+server\+\_\+lookup}!problem3.\+c@{problem3.\+c}}
+\subsubsection{\texorpdfstring{domain\+\_\+name\+\_\+server\+\_\+lookup()}{domain\_name\_server\_lookup()}}
+{\footnotesize\ttfamily char$\ast$ domain\+\_\+name\+\_\+server\+\_\+lookup (\begin{DoxyParamCaption}\item[{char $\ast$}]{host\+\_\+addr }\end{DoxyParamCaption})}
+
+
+
+Function to get the IP address from the domain name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em host\+\_\+addr} & The domain name. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a char$\ast$ to the ip address. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{problem3_8c_a0ddf1224851353fc92bfbff6f499fa97}\label{problem3_8c_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{problem3.\+c@{problem3.\+c}!main@{main}}
+\index{main@{main}!problem3.\+c@{problem3.\+c}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Problem Statement 3 entrypoint. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Count of the arguments \\
+\hline
+{\em argv} & Array of parameters \\
+\hline
+\end{DoxyParams}

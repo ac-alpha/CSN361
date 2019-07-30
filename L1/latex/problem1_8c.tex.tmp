@@ -1,0 +1,26 @@
+\hypertarget{problem1_8c}{}\section{problem1.\+c File Reference}
+\label{problem1_8c}\index{problem1.\+c@{problem1.\+c}}
+
+
+Problem Statement 1 \+: Prints process\+\_\+ids of created child and grandchild processes.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$sys/wait.\+h$>$}\newline
+Include dependency graph for problem1.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{problem1_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{problem1_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+int \hyperlink{problem1_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\begin{DoxyCompactList}\small\item\em Problem Statement 1 entrypoint. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Problem Statement 1 \+: Prints process\+\_\+ids of created child and grandchild processes. 
+
+\begin{DoxyAuthor}{Author}
+Ashutosh Chaubey 
+\end{DoxyAuthor}
