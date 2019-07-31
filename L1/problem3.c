@@ -1,5 +1,5 @@
 /** @file problem3.c 
- *  @brief Problem Statement 3 Ping a server. Use sudo <command> <hostname> <times>
+ *  @brief Problem Statement 3 Ping a server. Use sudo <command> <host_name> <times>
  *
  *  @author Ashutosh
  */
@@ -26,7 +26,7 @@ char *domain_name_server_lookup(char *host_addr)
   
     if ((host_entity = gethostbyname(host_addr)) == NULL) 
     { 
-        // No ip found for hostname 
+        // No ip found for host_name 
         return NULL; 
     } 
       
@@ -68,7 +68,7 @@ int main(int argc, char *argv[]) {
 
     if(ip_address==NULL) 
     { 
-        printf("\nCould not resolve hostname!\n"); 
+        printf("\nCould not resolve host_name!\n"); 
         return 0; 
     } 
 

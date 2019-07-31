@@ -1,5 +1,5 @@
 /** @file problem2.cpp 
- *  @brief Problem Statement 2 Print mac address of computer
+ *  @brief Problem Statement 2 Print mac address of computer , usage: <command> <devicename>
  *
  *  @author Ashutosh
  */
