@@ -20,6 +20,7 @@ int main()
   process_id2 = fork(); // child2
 
   if(process_id1>0 && process_id2>0){ //parent
+    
     printf("1st child process_id: %d..(%d).\n2nd child process_id: %d.\n", process_id1, new_process_id, process_id2);
   }
   else if(process_id1==0 && process_id2>0)
